@@ -1,0 +1,45 @@
+{
+    "name": "mattapril/eloquent-http",
+    "description": "Laravel Eloquent-like HTTP layer",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Matt April",
+            "email": "matthew.japril@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "~6.0|~7.0",
+        "illuminate/auth": "^6|^7|^8",
+        "illuminate/container": "^6|^7|^8",
+        "illuminate/contracts": "^6|^7|^8",
+        "illuminate/pagination": "^6|^7|^8",
+        "illuminate/support": "^6|^7|^8",
+        "illuminate/validation": "^6|^7|^8",
+        "jenssegers/model": "^1.3",
+        "nesbot/carbon": "^2.0",
+        "symfony/routing": "^4.4|^5.0"
+
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "MattApril\\EloquentHttp\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "MattApril\\EloquentHttp\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+
+            ]
+        }
+    }
+}
